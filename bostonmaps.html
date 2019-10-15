@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8d9eb1e8debd45ffa126fa3c35917772 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8d9eb1e8debd45ffa126fa3c35917772" ></div>
+        
+</body>
+<script>    
+    
+            var map_8d9eb1e8debd45ffa126fa3c35917772 = L.map(
+                "map_8d9eb1e8debd45ffa126fa3c35917772",
+                {
+                    center: [42.3601, -71.0589],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_43779af3c5a34d1a93891a4977848f54 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var marker_2cf91a492a894d1d9de88e2133e25a01 = L.marker(
+                [42.3517503, -71.071933],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_352a698a37d14bc7981f9071ac8b419c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2cf91a492a894d1d9de88e2133e25a01.setIcon(icon_352a698a37d14bc7981f9071ac8b419c);
+        
+    
+        var popup_7a6ea7c680a64281b790faa08ea709ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_772be3437a504e27a009f341f80e5e6d = $(`<div id="html_772be3437a504e27a009f341f80e5e6d" style="width: 100.0%; height: 100.0%;"><strong>Tatte Bakery & Cafe</strong> <br>                        <p>399 Boylston St, Boston, MA 02116</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_7a6ea7c680a64281b790faa08ea709ea.setContent(html_772be3437a504e27a009f341f80e5e6d);
+        
+
+        marker_2cf91a492a894d1d9de88e2133e25a01.bindPopup(popup_7a6ea7c680a64281b790faa08ea709ea)
+        ;
+
+        
+    
+    
+            marker_2cf91a492a894d1d9de88e2133e25a01.bindTooltip(
+                `<div>
+                     <strong>Tatte Bakery & Cafe</strong> <br>                        <p>399 Boylston St, Boston, MA 02116</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49b26518b3ef4d2ba53eccb8f606c896 = L.marker(
+                [42.3575501, -71.0689013278376],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_5ed92f9f4b8145a2a715b9a8fb2ddc6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_49b26518b3ef4d2ba53eccb8f606c896.setIcon(icon_5ed92f9f4b8145a2a715b9a8fb2ddc6c);
+        
+    
+        var popup_e087be16efa049708827f80fa963f3cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37f2fd2bbae74a83829cb27b47e23ba2 = $(`<div id="html_37f2fd2bbae74a83829cb27b47e23ba2" style="width: 100.0%; height: 100.0%;"><strong>Acorn Street</strong> <br>                        <p>5 Acorn St, Boston, MA 02108</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_e087be16efa049708827f80fa963f3cc.setContent(html_37f2fd2bbae74a83829cb27b47e23ba2);
+        
+
+        marker_49b26518b3ef4d2ba53eccb8f606c896.bindPopup(popup_e087be16efa049708827f80fa963f3cc)
+        ;
+
+        
+    
+    
+            marker_49b26518b3ef4d2ba53eccb8f606c896.bindTooltip(
+                `<div>
+                     <strong>Acorn Street</strong> <br>                        <p>5 Acorn St, Boston, MA 02108</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2069d845c9e40348adc7d7f2d22b5c8 = L.marker(
+                [42.3549741, -71.0508887],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_0f95327855fc4c8cae5f1b869f227d77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b2069d845c9e40348adc7d7f2d22b5c8.setIcon(icon_0f95327855fc4c8cae5f1b869f227d77);
+        
+    
+        var popup_7530019fa90b449cb26569e4ca29e89d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05fea797abf345a99574becb2c3fdde1 = $(`<div id="html_05fea797abf345a99574becb2c3fdde1" style="width: 100.0%; height: 100.0%;"><strong>James Hook & Co</strong> <br>                        <p>440 Atlantic Ave, Boston, MA 02110</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_7530019fa90b449cb26569e4ca29e89d.setContent(html_05fea797abf345a99574becb2c3fdde1);
+        
+
+        marker_b2069d845c9e40348adc7d7f2d22b5c8.bindPopup(popup_7530019fa90b449cb26569e4ca29e89d)
+        ;
+
+        
+    
+    
+            marker_b2069d845c9e40348adc7d7f2d22b5c8.bindTooltip(
+                `<div>
+                     <strong>James Hook & Co</strong> <br>                        <p>440 Atlantic Ave, Boston, MA 02110</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2ee7ac7176f4562a661e7fd4c0db72e = L.marker(
+                [42.3521988, -71.0513039],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_7ae28e55f50e45fdb0f77cfe5dbb205b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b2ee7ac7176f4562a661e7fd4c0db72e.setIcon(icon_7ae28e55f50e45fdb0f77cfe5dbb205b);
+        
+    
+        var popup_9de9cb7cf9974df7aed91db24532008a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29b459a4263641809712e169fe0c92c1 = $(`<div id="html_29b459a4263641809712e169fe0c92c1" style="width: 100.0%; height: 100.0%;"><strong>Boston Tea Party Ships & Museum</strong> <br>                        <p>306 Congress St, Boston, MA 02210</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_9de9cb7cf9974df7aed91db24532008a.setContent(html_29b459a4263641809712e169fe0c92c1);
+        
+
+        marker_b2ee7ac7176f4562a661e7fd4c0db72e.bindPopup(popup_9de9cb7cf9974df7aed91db24532008a)
+        ;
+
+        
+    
+    
+            marker_b2ee7ac7176f4562a661e7fd4c0db72e.bindTooltip(
+                `<div>
+                     <strong>Boston Tea Party Ships & Museum</strong> <br>                        <p>306 Congress St, Boston, MA 02210</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86a9320fe7f6429da93e73d4cee4d8ca = L.marker(
+                [42.3514121111111, -71.0467194444444],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_c168a51509814dfc81ca1d3bc10afd73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_86a9320fe7f6429da93e73d4cee4d8ca.setIcon(icon_c168a51509814dfc81ca1d3bc10afd73);
+        
+    
+        var popup_b46c3d147170454a9ff5ab91b4992a4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7e2907cc743465aa5732a3b705387e8 = $(`<div id="html_c7e2907cc743465aa5732a3b705387e8" style="width: 100.0%; height: 100.0%;"><strong>Trillium Brewing</strong> <br>                        <p>50 Thomson Pl, Boston, MA 02210</p>                        <p><span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_b46c3d147170454a9ff5ab91b4992a4e.setContent(html_c7e2907cc743465aa5732a3b705387e8);
+        
+
+        marker_86a9320fe7f6429da93e73d4cee4d8ca.bindPopup(popup_b46c3d147170454a9ff5ab91b4992a4e)
+        ;
+
+        
+    
+    
+            marker_86a9320fe7f6429da93e73d4cee4d8ca.bindTooltip(
+                `<div>
+                     <strong>Trillium Brewing</strong> <br>                        <p>50 Thomson Pl, Boston, MA 02210</p>                        <p><span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c70fedd560e403b9a9da5b3a9990023 = L.marker(
+                [42.3510555, -71.077952],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_206e957bcb314c7ebecd989731c5e6c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_1c70fedd560e403b9a9da5b3a9990023.setIcon(icon_206e957bcb314c7ebecd989731c5e6c5);
+        
+    
+        var popup_e7cd06176cc9430b96cc2bf627efc99d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8457249892ab453aa386f04a0bc93cc5 = $(`<div id="html_8457249892ab453aa386f04a0bc93cc5" style="width: 100.0%; height: 100.0%;"><strong>Met Back Bay</strong> <br>                        <p>279 Dartmouth St, Boston, MA 02116</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_e7cd06176cc9430b96cc2bf627efc99d.setContent(html_8457249892ab453aa386f04a0bc93cc5);
+        
+
+        marker_1c70fedd560e403b9a9da5b3a9990023.bindPopup(popup_e7cd06176cc9430b96cc2bf627efc99d)
+        ;
+
+        
+    
+    
+            marker_1c70fedd560e403b9a9da5b3a9990023.bindTooltip(
+                `<div>
+                     <strong>Met Back Bay</strong> <br>                        <p>279 Dartmouth St, Boston, MA 02116</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b4dffe08a97467e9a961daa422b523f = L.marker(
+                [42.3524676, -71.0645293],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_605dda05a5ca4e6db5c1281612f63395 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_7b4dffe08a97467e9a961daa422b523f.setIcon(icon_605dda05a5ca4e6db5c1281612f63395);
+        
+    
+        var popup_5940536a31c249fa9d472b9968a4ed81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b08fe1ff5ad544918813df4fce81b018 = $(`<div id="html_b08fe1ff5ad544918813df4fce81b018" style="width: 100.0%; height: 100.0%;"><strong>Boston Common</strong> <br>                        <p>139 Tremont St, Boston, MA 02111</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_5940536a31c249fa9d472b9968a4ed81.setContent(html_b08fe1ff5ad544918813df4fce81b018);
+        
+
+        marker_7b4dffe08a97467e9a961daa422b523f.bindPopup(popup_5940536a31c249fa9d472b9968a4ed81)
+        ;
+
+        
+    
+    
+            marker_7b4dffe08a97467e9a961daa422b523f.bindTooltip(
+                `<div>
+                     <strong>Boston Common</strong> <br>                        <p>139 Tremont St, Boston, MA 02111</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a546ff265a8c43f29d5739d84c24080e = L.marker(
+                [42.3525392, -71.0524452],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_3b1b240cd79f4e3b9ba3673bf163e08b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a546ff265a8c43f29d5739d84c24080e.setIcon(icon_3b1b240cd79f4e3b9ba3673bf163e08b);
+        
+    
+        var popup_f46156c5c0f444869f8e64280bcf97f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a788a43df1a344538deeef2b2a24c3f7 = $(`<div id="html_a788a43df1a344538deeef2b2a24c3f7" style="width: 100.0%; height: 100.0%;"><strong>Boston Masacre Site</strong> <br>                        <p>Corner of State and, Congress St, Boston, MA 02109</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_f46156c5c0f444869f8e64280bcf97f9.setContent(html_a788a43df1a344538deeef2b2a24c3f7);
+        
+
+        marker_a546ff265a8c43f29d5739d84c24080e.bindPopup(popup_f46156c5c0f444869f8e64280bcf97f9)
+        ;
+
+        
+    
+    
+            marker_a546ff265a8c43f29d5739d84c24080e.bindTooltip(
+                `<div>
+                     <strong>Boston Masacre Site</strong> <br>                        <p>Corner of State and, Congress St, Boston, MA 02109</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9108f4cc2f549c098a2681e6895a3db = L.marker(
+                [42.359706, -71.0550683],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_f486422e2753407d850e75459a052c0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b9108f4cc2f549c098a2681e6895a3db.setIcon(icon_f486422e2753407d850e75459a052c0e);
+        
+    
+        var popup_fbb418aa108b4a70a8233dc3c10f6acc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f69a10a5079b46118f03da2bff333cad = $(`<div id="html_f69a10a5079b46118f03da2bff333cad" style="width: 100.0%; height: 100.0%;"><strong>Faneuil Hall Marketplace / Quincy Market</strong> <br>                        <p>4 S Market St, Boston, MA 02109</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_fbb418aa108b4a70a8233dc3c10f6acc.setContent(html_f69a10a5079b46118f03da2bff333cad);
+        
+
+        marker_b9108f4cc2f549c098a2681e6895a3db.bindPopup(popup_fbb418aa108b4a70a8233dc3c10f6acc)
+        ;
+
+        
+    
+    
+            marker_b9108f4cc2f549c098a2681e6895a3db.bindTooltip(
+                `<div>
+                     <strong>Faneuil Hall Marketplace / Quincy Market</strong> <br>                        <p>4 S Market St, Boston, MA 02109</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da7514391a7144b4a824ffacbd9f6bd5 = L.marker(
+                [42.363286, -71.05487],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_77cc8a9ed7a74cd9af8ce573b93be536 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_da7514391a7144b4a824ffacbd9f6bd5.setIcon(icon_77cc8a9ed7a74cd9af8ce573b93be536);
+        
+    
+        var popup_84f9c1efc8464e0e9bcca83c31d839c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0d12f32b15a430097a3c953c2840b66 = $(`<div id="html_c0d12f32b15a430097a3c953c2840b66" style="width: 100.0%; height: 100.0%;"><strong>Modern Pastry Shop</strong> <br>                        <p>257 Hanover St, Boston, MA 02113</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_84f9c1efc8464e0e9bcca83c31d839c9.setContent(html_c0d12f32b15a430097a3c953c2840b66);
+        
+
+        marker_da7514391a7144b4a824ffacbd9f6bd5.bindPopup(popup_84f9c1efc8464e0e9bcca83c31d839c9)
+        ;
+
+        
+    
+    
+            marker_da7514391a7144b4a824ffacbd9f6bd5.bindTooltip(
+                `<div>
+                     <strong>Modern Pastry Shop</strong> <br>                        <p>257 Hanover St, Boston, MA 02113</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cc119c14d19445ea86a1426912582e9 = L.marker(
+                [42.3621228, -71.0575399],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_8032eeb91e994f5e95abec96954d8215 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5cc119c14d19445ea86a1426912582e9.setIcon(icon_8032eeb91e994f5e95abec96954d8215);
+        
+    
+        var popup_c5a9f8794c5249ad8af050d2f4ec74bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee74410f4bae4e74b349755fb50077df = $(`<div id="html_ee74410f4bae4e74b349755fb50077df" style="width: 100.0%; height: 100.0%;"><strong>Boston Public Market</strong> <br>                        <p>100 Hanover St, Boston, MA 02108</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_c5a9f8794c5249ad8af050d2f4ec74bb.setContent(html_ee74410f4bae4e74b349755fb50077df);
+        
+
+        marker_5cc119c14d19445ea86a1426912582e9.bindPopup(popup_c5a9f8794c5249ad8af050d2f4ec74bb)
+        ;
+
+        
+    
+    
+            marker_5cc119c14d19445ea86a1426912582e9.bindTooltip(
+                `<div>
+                     <strong>Boston Public Market</strong> <br>                        <p>100 Hanover St, Boston, MA 02108</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_075c0c1e08804a63b0f56db1dcbd147a = L.marker(
+                [42.3637378, -71.0536827165094],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_82fd168af2d14f948129f273f2e4b0e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_075c0c1e08804a63b0f56db1dcbd147a.setIcon(icon_82fd168af2d14f948129f273f2e4b0e3);
+        
+    
+        var popup_c3ba3e14a00e41f1afb1725baa20e4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be3bb79e7acc4d848530b8780a80d313 = $(`<div id="html_be3bb79e7acc4d848530b8780a80d313" style="width: 100.0%; height: 100.0%;"><strong>Paul Revere House</strong> <br>                        <p>19 N Square, Boston, MA 02113</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_c3ba3e14a00e41f1afb1725baa20e4a0.setContent(html_be3bb79e7acc4d848530b8780a80d313);
+        
+
+        marker_075c0c1e08804a63b0f56db1dcbd147a.bindPopup(popup_c3ba3e14a00e41f1afb1725baa20e4a0)
+        ;
+
+        
+    
+    
+            marker_075c0c1e08804a63b0f56db1dcbd147a.bindTooltip(
+                `<div>
+                     <strong>Paul Revere House</strong> <br>                        <p>19 N Square, Boston, MA 02113</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90837cb1a7574cf78141d766195652b3 = L.marker(
+                [42.36631595, -71.0544477764501],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_7457535828294028bdde4a5394c2a49d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90837cb1a7574cf78141d766195652b3.setIcon(icon_7457535828294028bdde4a5394c2a49d);
+        
+    
+        var popup_0bf9effcd23944cdb1395a0c08fa1040 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_988c36b7d144427e94dd5cea5c5f5173 = $(`<div id="html_988c36b7d144427e94dd5cea5c5f5173" style="width: 100.0%; height: 100.0%;"><strong>Old North Church</strong> <br>                        <p>193 Salem St, Boston, MA 02113</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_0bf9effcd23944cdb1395a0c08fa1040.setContent(html_988c36b7d144427e94dd5cea5c5f5173);
+        
+
+        marker_90837cb1a7574cf78141d766195652b3.bindPopup(popup_0bf9effcd23944cdb1395a0c08fa1040)
+        ;
+
+        
+    
+    
+            marker_90837cb1a7574cf78141d766195652b3.bindTooltip(
+                `<div>
+                     <strong>Old North Church</strong> <br>                        <p>193 Salem St, Boston, MA 02113</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fd324e17ed8489a84bd6183d382f3fe = L.marker(
+                [42.3769313, -71.060469],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_cd3843c5f2d04adba6b0b596b19eb77d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4fd324e17ed8489a84bd6183d382f3fe.setIcon(icon_cd3843c5f2d04adba6b0b596b19eb77d);
+        
+    
+        var popup_cbc85d64bdd8471397da35323a747868 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf4d2cc6fdfa406c852fd269bc0c7574 = $(`<div id="html_cf4d2cc6fdfa406c852fd269bc0c7574" style="width: 100.0%; height: 100.0%;"><strong>Bunker Hill Monument</strong> <br>                        <p>Monument Sq, Charlestown, MA 02129</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_cbc85d64bdd8471397da35323a747868.setContent(html_cf4d2cc6fdfa406c852fd269bc0c7574);
+        
+
+        marker_4fd324e17ed8489a84bd6183d382f3fe.bindPopup(popup_cbc85d64bdd8471397da35323a747868)
+        ;
+
+        
+    
+    
+            marker_4fd324e17ed8489a84bd6183d382f3fe.bindTooltip(
+                `<div>
+                     <strong>Bunker Hill Monument</strong> <br>                        <p>Monument Sq, Charlestown, MA 02129</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8961a314b2ef408aa00cc28faad631d1 = L.marker(
+                [42.3430937243297, -71.0992801062073],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_e3a31a04bb10403fabefca5790344f47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_8961a314b2ef408aa00cc28faad631d1.setIcon(icon_e3a31a04bb10403fabefca5790344f47);
+        
+    
+        var popup_39dcda7475bd43748f5710de1bdc29d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7551e3fcf2264eb8b37fa42ca2e6b0e3 = $(`<div id="html_7551e3fcf2264eb8b37fa42ca2e6b0e3" style="width: 100.0%; height: 100.0%;"><strong>Neighborhoods Coffee and Crepes</strong> <br>                        <p>96 Peterborough St, Boston, MA 02215</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_39dcda7475bd43748f5710de1bdc29d6.setContent(html_7551e3fcf2264eb8b37fa42ca2e6b0e3);
+        
+
+        marker_8961a314b2ef408aa00cc28faad631d1.bindPopup(popup_39dcda7475bd43748f5710de1bdc29d6)
+        ;
+
+        
+    
+    
+            marker_8961a314b2ef408aa00cc28faad631d1.bindTooltip(
+                `<div>
+                     <strong>Neighborhoods Coffee and Crepes</strong> <br>                        <p>96 Peterborough St, Boston, MA 02215</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b67de41f8514832b0e8bc356efdaa8f = L.marker(
+                [42.34648975, -71.0972244184537],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_1e91059df3544c25a6cf4f3ebce45c83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_1b67de41f8514832b0e8bc356efdaa8f.setIcon(icon_1e91059df3544c25a6cf4f3ebce45c83);
+        
+    
+        var popup_635e2194360c4485a89975ffcae4f93c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_819afae0a04a47f4bc95b5b1e9bee78f = $(`<div id="html_819afae0a04a47f4bc95b5b1e9bee78f" style="width: 100.0%; height: 100.0%;"><strong>Fenway Park</strong> <br>                        <p>4 Jersey St, Boston, MA 02215</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_635e2194360c4485a89975ffcae4f93c.setContent(html_819afae0a04a47f4bc95b5b1e9bee78f);
+        
+
+        marker_1b67de41f8514832b0e8bc356efdaa8f.bindPopup(popup_635e2194360c4485a89975ffcae4f93c)
+        ;
+
+        
+    
+    
+            marker_1b67de41f8514832b0e8bc356efdaa8f.bindTooltip(
+                `<div>
+                     <strong>Fenway Park</strong> <br>                        <p>4 Jersey St, Boston, MA 02215</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5d032230a4643c1a5df49cd4ea062af = L.marker(
+                [42.37444275, -71.11828855],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_0cf4b7f7c80b4bb6877b8cb38987589e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_e5d032230a4643c1a5df49cd4ea062af.setIcon(icon_0cf4b7f7c80b4bb6877b8cb38987589e);
+        
+    
+        var popup_9c4ef13e8b66491ab53e3f7d13b3d910 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_890e99a00c634d5cba474a0bf98e66af = $(`<div id="html_890e99a00c634d5cba474a0bf98e66af" style="width: 100.0%; height: 100.0%;"><strong>Harvard University</strong> <br>                        <p>Massachusetts Hall, Cambridge, MA 02138</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_9c4ef13e8b66491ab53e3f7d13b3d910.setContent(html_890e99a00c634d5cba474a0bf98e66af);
+        
+
+        marker_e5d032230a4643c1a5df49cd4ea062af.bindPopup(popup_9c4ef13e8b66491ab53e3f7d13b3d910)
+        ;
+
+        
+    
+    
+            marker_e5d032230a4643c1a5df49cd4ea062af.bindTooltip(
+                `<div>
+                     <strong>Harvard University</strong> <br>                        <p>Massachusetts Hall, Cambridge, MA 02138</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f505f5c35a0f407295e5752c0dffacc2 = L.marker(
+                [42.34715695, -71.0825051630347],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_3b24cc434ef144a8ac58980918908fcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f505f5c35a0f407295e5752c0dffacc2.setIcon(icon_3b24cc434ef144a8ac58980918908fcb);
+        
+    
+        var popup_a4d76f0b72fc4ddbbc6c0ff846c1aa7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22e86bd8a7624201985be7d0a9a8c13e = $(`<div id="html_22e86bd8a7624201985be7d0a9a8c13e" style="width: 100.0%; height: 100.0%;"><strong>Skywalk Observatory</strong> <br>                        <p>800 Boylston St, Boston, MA 02199</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_a4d76f0b72fc4ddbbc6c0ff846c1aa7e.setContent(html_22e86bd8a7624201985be7d0a9a8c13e);
+        
+
+        marker_f505f5c35a0f407295e5752c0dffacc2.bindPopup(popup_a4d76f0b72fc4ddbbc6c0ff846c1aa7e)
+        ;
+
+        
+    
+    
+            marker_f505f5c35a0f407295e5752c0dffacc2.bindTooltip(
+                `<div>
+                     <strong>Skywalk Observatory</strong> <br>                        <p>800 Boylston St, Boston, MA 02199</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7072338b2954980a3329c7ba9c70282 = L.marker(
+                [42.350636, -71.077516],
+                {}
+            ).addTo(map_8d9eb1e8debd45ffa126fa3c35917772);
+        
+    
+            var icon_96548c8bce544f73a58f5b15a693b912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b7072338b2954980a3329c7ba9c70282.setIcon(icon_96548c8bce544f73a58f5b15a693b912);
+        
+    
+        var popup_dda1c779f6394f2f96d899586dfc865a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e49dd7eadc14f14a68b847a47f99d32 = $(`<div id="html_7e49dd7eadc14f14a68b847a47f99d32" style="width: 100.0%; height: 100.0%;"><strong>Lolita Back Bay</strong> <br>                        <p>271 Dartmouth St, Boston, MA 02116</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p></div>`)[0];
+            popup_dda1c779f6394f2f96d899586dfc865a.setContent(html_7e49dd7eadc14f14a68b847a47f99d32);
+        
+
+        marker_b7072338b2954980a3329c7ba9c70282.bindPopup(popup_dda1c779f6394f2f96d899586dfc865a)
+        ;
+
+        
+    
+    
+            marker_b7072338b2954980a3329c7ba9c70282.bindTooltip(
+                `<div>
+                     <strong>Lolita Back Bay</strong> <br>                        <p>271 Dartmouth St, Boston, MA 02116</p>                        <p><span>&#9733;</span>                <span>&#9733;</span>                <span>&#9733;</span></p>                        <p>Fun Times!</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
